@@ -1,0 +1,7 @@
+[
+  {"question": "What does the quarterly revenue chart show?", "doc": "sales_report.pdf",
+   "expected_pages": [1], "expected_modalities": ["text", "chart"], "expected_keywords": ["revenue"]},
+  {"question": "Which product has the highest revenue according to the table?", "doc": "sales_report.pdf",
+   "expected_pages": [1], "expected_modalities": ["table"], "expected_keywords": ["Laptop"]},
+  {"question": "Plot total revenue by region", "expected_modalities": ["chart"], "expected_keywords": ["region"]}
+]
